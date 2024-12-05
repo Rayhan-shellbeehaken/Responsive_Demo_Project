@@ -56,6 +56,10 @@ header nav ul li a:hover{
     color: var(--project_orange)
 }
 
+#active a{
+    color: var(--project_orange)
+}
+
 /*Header finish*/
 
 
@@ -174,6 +178,36 @@ footer{
     text-align: center;
     padding: 3vh 0;
     font-size: 20px;
+    background-color: var(--project_orange);
+    color: white;
+}
+
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5vh 15vw;
+}
+
+#left{
+    width: 65%;
+}
+
+#right{
+    width: 30%;
+    margin-left: 15px;
+}
+
+.box{
+    margin: 2vh 0;
+    font-size: 18px;
+}
+
+.black{
+    background-color: #35424a;
+    color: white;
+    padding: 1vw;
 }
 
 
